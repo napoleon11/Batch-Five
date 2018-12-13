@@ -1,0 +1,112 @@
+.topnav{
+	background-color: #D70000;
+	overflow: hidden;}
+.topnav a {
+	float: right;
+   display: block;
+   color:  #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+    border: 0px;
+	 margin:0px;
+   }
+   
+   .topnav a:hover {
+	   background-color: blue;
+	   color: black;
+   }
+   .topnav a.active{
+       background-color: #F7B906;
+       color: white;
+   }
+   
+   h1{ 
+	   font:arial bold normal 25px;
+	   color:white;
+   }
+   .h2{ font: bold normal 35px broadway;
+	   color:green;
+   }
+   
+   
+    .pic{background-color:blue;
+			   margin-top: 5px;
+                  padding: 10px 920px 10px 10px;
+                    float: left;	
+   }
+   
+   .para1{ clear:left;
+   font: bold italic 20px arial ;
+	                 color:brown;
+					 float:center;
+   }			
+.para2{ clear:left;
+   font: bold italic 20px algerian ;
+	                 color:green;
+					 float:center;    
+}
+   .column {
+	 float: left;
+	 width: 23.33%; 
+	 margin: 60px;
+}
+.column img {
+	width: 100pz;
+	height: auto;
+}
+	
+.row {
+   text-align: center;
+   padding-bottom: 0px;
+   padding-top:0px
+}
+img.row{
+	width: 30%;
+	height: 30%;
+}																																						
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+.header{
+	font: bold normal 30px algerian;
+	   color:#B22222;
+	   float:center;
+}	   
+.para3{
+   font: bold normal 17px arial;
+	                 color:brown;
+					 float:center; 
+}					 
+
+body {
+	background-image: url("fruitimages3.jpg");
+	 height: 90%;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 position: relative;
+	 background-attachment:fixed;
+	 border: 0px;
+	 margin:0px;
+}
+
+footer {
+    background-color: red;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;	
+}	
+
+footer p {
+	 color: yellow;
+}
+
+.para4{ clear:left;
+   font: bold italic 25px arial ;
+	                 color:black;
+					 float:center;

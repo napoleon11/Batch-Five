@@ -1,0 +1,77 @@
+body {
+	background-image: url("fruitimages1.jpg");
+	 height: 90%;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 position: relative;
+	 background-attachment:fixed;
+	 border: 0px;
+	 margin:0px;
+}
+
+footer {
+    background-color: red;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;	
+}	
+
+footer p {
+	 color: yellow;
+}
+
+.para3{
+   font: bold normal 17px arial;
+	                 color:brown;
+					 float:center; 
+}					 
+
+.column {
+	 float: left;
+	 width: 23.33%; 
+	 margin: 60px;
+}
+.column img {
+	width: 100pz;
+	height: auto;
+}
+	
+.row {
+   text-align: center;
+   padding-bottom: 0px;
+   padding-top:0px
+}
+img.row{
+	width: 30%;
+	height: 30%;
+}																																						
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+.topnav{
+	background-color: #D70000;
+	overflow: hidden;}
+.topnav a {
+	float: right;
+   display: block;
+   color:  #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+    border: 0px;
+	 margin:0px;
+   }
+   
+   .topnav a:hover {
+	   background-color: blue;
+	   color: black;
+   }
+   .topnav a.active{
+       background-color: #F7B906;
+       color: white;
+   }
